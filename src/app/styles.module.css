@@ -1,0 +1,48 @@
+.page {
+  --main_font_family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  --dd_elementbox_background_colour: #e2eaed;
+  --dd_elementbox_border_colour: #6a7d84;
+
+  font-family: var(--main_font_family);
+  font-size: 16px;
+
+  width: 80vw;
+  text-align: center;
+  margin: 5vh 10vw;
+}
+
+.uprn_entry input, .uprn_entry button {
+  font-size: 16px;
+  font-family: var(--main_font_family);
+}
+
+.divider_bar {
+  margin: 3vh;
+}
+
+.dd {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.dd_box {
+  width: 20vw;
+  min-height: 10vh;
+  margin: 1vw;
+  padding: 1vw;
+
+  background-color: var(--dd_elementbox_background_colour);
+  border: solid 3px var(--dd_elementbox_border_colour);
+  border-radius: 1vw;
+}
+
+.dd_box_contents {
+  margin: auto;
+}
+
+.dd_box p {
+  margin: 0;
+  text-align: center;
+}
